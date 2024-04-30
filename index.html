@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/56f0604359.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Interests</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Computer Science & Design Undergraduate<br>@SUTD, Singapore University of Technology & Design</p>
+            <h1>Hi, I'm <span>Azfar</span> Yusri.<br>Welcome!</h1>
+        </div>
+    </div>
+</div>
+<!------------------about-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> CSD Undergradraduate @SUTD <span style="color: #AECBFA">|</span> Coding the Future <span style="color: #AECBFA">|</span> Perpetually Hungry for Food, Growth, and Innovation<br><br>
+                    Passionately driven in creating impactful software solutions. Through continuous learning, development, application and experience in diverse projects, as well as a genuine commitment to strive and grow outside of my comfort zone, I’m eager to apply what I'm learning along the way and to bring value to others as well as my community.</p>
+                    
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul class="skillset">
+                            <li class="skills1"><span>Hard Skills</span><br>
+                                • Python (General Purpose, Data Science<br>and Machine Learning)<br>
+                                • HTML, JavaScript, CSS (Web Development)<br>
+                                • Social Media Marketing (Content Marketing)<br>
+                                • Sales and Marketing (Direct Sales)<br>                       
+                                • MS Projects, Excel, etc.<br>
+                                • C, shell scripting, Unix<br>
+                                • Java (App Development)<br>                                
+                                • Rhino3D, AutoCAD<br>
+                                • Canva
+                                </li>
+                            <li class="skills2"><span>Soft Skills</span><br>
+                                •Goal Setting and Time Management<br>
+                                • Interpersonal Skills<br>
+                                • Problem-Solving<br>
+                                • Critical Thinking<br>    
+                                • Growth Mindset<br>                     
+                                • Communication<br>                                              
+                                • Teamwork
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>• Apr 20 to Nov 21</span><br>| Firefighter (National Service), Jurong Fire Station</li>
+                            <li><span>• Nov 21 to Jan 22</span><br>| Service personel (Part-time), WSH Experts</li>
+                            <li><span>• Jan 22 - Mar 22</span><br>| Retail Assistant (Part-time), Fossil Group, Inc.</li>
+                            <li><span>• May 22 to Jul 22</span><br>| Sales & Marketing Specialist (Full-time), One Zeus Solutions</li>
+                            <li><span>• Mar 23 to Mar 24</span><br>| Media and Marketing Director (Full-time), 11th ROOT, SUTD Student Government Body</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>• Jan 08 to Dec 13</span><br>| Rulang Primary School</li>
+                            <li><span>• Jan 14 to Nov 17</span><br>| Jurong Secondary School</li>
+                            <li><span>• Feb 18 to Nov 19</span><br>| Jurong Pioneer Junior College</li>
+                            <li><span>• Sep 22 to Present</span><br>| Singapore University of Technology and Design </li>
+                            <li><span>• Jun 23 to Dec 23</span><br>| 42 Singapore</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------Interests--------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Interests</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quibusdam earum? Alias adipisci velit suscipit dolorem quasi ex aspernatur, fuga quos neque ipsum deserunt amet illum nobis nisi. Nemo, similique.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quibusdam earum? Alias adipisci velit suscipit dolorem quasi ex aspernatur, fuga quos neque ipsum deserunt amet illum nobis nisi. Nemo, similique.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-bitcoin"></i>
+                <h2>Crytpo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quibusdam earum? Alias adipisci velit suscipit dolorem quasi ex aspernatur, fuga quos neque ipsum deserunt amet illum nobis nisi. Nemo, similique.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-ranking-star"></i>
+                <h2>Sales and Marketing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quibusdam earum? Alias adipisci velit suscipit dolorem quasi ex aspernatur, fuga quos neque ipsum deserunt amet illum nobis nisi. Nemo, similique.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-----------------------Portfolio--------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg" >
+                <div class="layer">
+                    <h3>Fovoro, SUTD Food Review App</h3>
+                    <p>Designed & built a prototype Android food review app for SUTD. Utilized Java & applied OOP principles, patterns, data structures, & algorithms to enable review, rating, ranking of stores, & menu browsing functionalities.</p>
+                    <a href="https://www.linkedin.com/posts/azfar-yusri_term-4-is-finally-over-as-the-first-term-activity-7191193002592071680-BsL1?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg" >
+                <div class="layer">
+                    <h3>Design Thinking Workshop</h3>
+                    <p>Led a transformative 2-day workshop for Madrasah students in Singapore, guiding them through Design Thinking principles and building essential coding skills. Collaborated with a fantastic team to tailor content and foster an interactive learning environment, empowering young minds with innovative problem-solving and a passion for technology.</p>
+                    <a href="https://www.linkedin.com/posts/azfar-yusri_empoweringeducation-designthinking-codingbasics-activity-7127535150942355456-rXDZ?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpeg" >
+                <div class="layer">
+                    <h3>Rezelrex, Personal Brand</h3>
+                    <p>By incorporating Gen AI softwares, </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----------------contact--------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>azfar200@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+65 97869061</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/azfar-yusri"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/azf_rx/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://t.me/azfaryusri"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://github.com/rezelrex/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://azfaryusri.carrd.co/"><i class="fa-solid fa-address-card"></i></a>
+                </div>
+                <a href="#" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Azfar. Yusri <i class="fa-solid fa-bolt"></i> Designed with HTML & CSS</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwE89HXjZnt046nZrPK8ODMkMPDNhTWu2rtkMdw99PzqKHnXrn8FB5axntlUoacjaqQ8A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Your message has been delivered!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
