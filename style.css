@@ -261,12 +261,16 @@ nav ul li a:hover::after{
 }
 .contact-left p{
     margin-top: 30px;
-
+}
+.contact-left img{
+    width: 45%;
+    border-radius: 16px ;
 }
 .contact-left p i{
     color: #86BBD9;
     margin-right: 15px;
     font-size: 25px;
+    margin-top: -20px;
 }
 .social-icons{
     margin-top: 30px;
